@@ -1,0 +1,10 @@
+name: tsfresh_tsfuse_demo
+dependencies:
+  - xgboost
+  - graphviz
+  - pip:
+      - numpy<2
+      - pandas
+      - tables
+      - tsfresh
+      - git+https://github.com/arnedb/tsfuse#egg=tsfuse
